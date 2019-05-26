@@ -1,2 +1,4 @@
-# ML
-Here the codes of the machine learning is used and library used in python is also of machine learning.
+#chine Learning (ML)
+
+Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
+
