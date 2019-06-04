@@ -27,7 +27,8 @@ example: classification of mood/feelings in songs/music
 Naive Bayes is a probabilistic classifier inspired by the Bayes theorem. Under a simple assumption which is the attributes are conditionally independent.
 
 ![fig. Naive Bayes Theorm](https://cdn-images-1.medium.com/max/800/0*U3LlC4m7PO5sqq9Q.png)
- fig. Naive Bayes Theorm.      
+
+fig. Naive Bayes Theorm.      
          
 The classification is conducted by deriving the maximum posterior which is the maximal P(Ci|X) with the above assumption applying to Bayes theorem. This assumption greatly reduces the computational cost by only counting the class distribution. Even though the assumption is not valid in most cases since the attributes are dependent, surprisingly Naive Bayes has able to perform impressively.
 Naive Bayes is a very simple algorithm to implement and good results have obtained in most cases. It can be easily scalable to larger datasets since it takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.
@@ -51,6 +52,7 @@ Effective in high dimensional spaces and uses a subset of training points in the
 The algorithm does not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.
 
 ![SVM](https://cdn-images-1.medium.com/max/800/0*G9Ql7oiZQV49tPN4.png)
+
 fig. SVM
 
 ###### Description of diagram:
@@ -72,6 +74,7 @@ It is a non-parametric, lazy algorithm. It’s non-parametric since it does not 
 So strictly speaking, this is not really a learning algorithm. It simply classfies objects based on feature similarity (feature = input variables).
 
 ![KNN](https://cdn-images-1.medium.com/max/800/0*2m7ZxmT2VVyBSiqk.png)
+
 fig. classifying new example depending on Training instance distance
 
 Classification is computed from a simple majority vote of the k nearest neighbours of each point.
@@ -85,6 +88,7 @@ Given a data of attributes together with its classes, a decision tree produces a
 Decision Tree, as it name says, makes decision with tree-like model. It splits the sample into two or more homogeneous sets (leaves) based on the most significant differentiators in your input variables. To choose a differentiator (predictor), the algorithm considers all features and does a binary split on them (for categorical data, split by cat; for continuous, pick a cut-off threshold). It will then choose the one with the least cost (i.e. highest accuracy), and repeats recursively, until it successfully splits the data in all leaves (or reaches the maximum depth).
 
 ![DT](https://cdn-images-1.medium.com/max/800/0*g2wMHxXJFZOSS8As.png)
+
 fig. Tree like representation of datain Decision tree
 
 ###### Advantages:
@@ -97,6 +101,7 @@ Decision tree can create complex trees that do not generalise well, and decision
 Random forest is an ensemble model that grows multiple tree and classify objects based on the “votes” of all the trees. i.e. An object is assigned to a class that has most votes from all the trees. By doing so, the problem with high bias (overfitting) could be alleviated.( — from Kaggle).
 
 ![Random Forest](https://cdn-images-1.medium.com/max/800/1*i0o8mjFfCn-uD79-F1Cqkw.png)
+
 fig. Random forest
 
 Random forest classifier is a meta-estimator that fits a number of decision trees on various sub-samples of datasets and uses average to improve the predictive accuracy of the model and controls over-fitting. The sub-sample size is always the same as the original input sample size but the samples are drawn with replacement.
