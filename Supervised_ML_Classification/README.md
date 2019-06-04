@@ -25,4 +25,6 @@ example: classification of types of crops
 example: classification of mood/feelings in songs/music
 #### 1). Naive Bayes (Classifier):
 Naive Bayes is a probabilistic classifier inspired by the Bayes theorem. Under a simple assumption which is the attributes are conditionally independent.
+![fig. Naive Bayes Theorm](https://cdn-images-1.medium.com/max/800/0*U3LlC4m7PO5sqq9Q.png)
+                                            fig. Naive Bayes Theorm.                                    
 
