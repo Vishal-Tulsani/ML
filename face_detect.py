@@ -5,7 +5,7 @@ import cv2
 facehaar=cv2.CascadeClassifier('face.xml')
 
 # image read  #  plz operate all operation in  gray scale
-virat_img=cv2.imread('virat.jpg')
+virat_img=cv2.imread('cat.jpg')
 print(virat_img.shape)
 
 #  face detector  apply in  virat_img--scalling  range 
